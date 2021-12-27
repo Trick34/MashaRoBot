@@ -1,2 +1,1 @@
-worker: python3 -m MashaRoBot
-ps:scale worker=1
+worker: python3 -m COSMIC BOT
