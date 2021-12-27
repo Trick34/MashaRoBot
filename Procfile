@@ -1,1 +1,1 @@
-worker: python3 -m cosmic bot
+worker: python3 -m cosmic
