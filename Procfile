@@ -1,1 +1,1 @@
-worker: python3 -m cosmic
+worker: python3 -m MashaRoBot
