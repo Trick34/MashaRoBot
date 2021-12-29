@@ -103,11 +103,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-ᴍʀ.ᴄᴏsᴍɪᴄ comes with many special features in it*✨
-🛸*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᴍʀ.ᴄᴏsᴍɪᴄ *🛸
-𖣘 *All commands can be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it on @Mr_Cosmic_Support* [.](https://telegra.ph/MrCosmic-11-29)
+Below is all My Commands\n
+ALL can be Used 
 """
+
+
 
 
 DONATE_STRING = """No need.. I'm rich"""
