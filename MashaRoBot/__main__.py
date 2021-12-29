@@ -103,8 +103,6 @@ buttons = [
         InlineKeyboardButton(text="🔔Uᴘᴅᴀᴛᴇs🔔", url="https://t.me/Mr_Cosmic_Updates"
     ),
     ],
-]
-
 
 
 HELP_STRINGS = """
