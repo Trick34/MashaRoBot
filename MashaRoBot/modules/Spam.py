@@ -2,7 +2,7 @@ import asyncio
 import os
 from asyncio import sleep
 from telethon import events
-from .. import bot, OWNER_ID
+from .. import telethn, OWNER_ID
 
 #############-CONSTANTS-##############
 LOGGER = True
