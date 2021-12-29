@@ -99,7 +99,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from MashaRoBot.config import Development as Config
+    from MashaRo.config import Development as Config
 
     TOKEN = Config.TOKEN
 
