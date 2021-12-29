@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey....!\n
-Welcome I am Pro Group Manager👀
+Welcome Iam ᴍʀ.ᴄᴏsᴍɪᴄ✨
 • I can help you to manage your groups very easily with my special features 🤗\n
 • Add me into your group\n
 • Click on **HELP** to know about my features or Use /help.
@@ -355,7 +355,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""H!✨ This Is a powerful group management bot built to help you manage your group easily..
+            text="""H!✨ Iam ᴍʀ.ᴄᴏsᴍɪᴄ the powerful group management bot built to help you manage your group easily..
 •I can do lots of things in group.
 •I can ban/kick/mute any User with admin privileges 
 •ADD me into your Group and Make me Admin🙂and let me do my work...in your group
