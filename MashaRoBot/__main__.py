@@ -104,7 +104,7 @@ buttons = [
 
 HELP_STRINGS = """
 Below is all My Commands\n
-ALL can be Used 
+ALL can be 
 """
 
 
