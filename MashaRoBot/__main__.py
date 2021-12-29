@@ -74,11 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey....!\n
-Welcome Iam ᴍʀ.ᴄᴏsᴍɪᴄ✨
-• I can help you to manage your groups very easily with my special features 🤗\n
-• Add me into your group\n
-• Click on **HELP** to know about my features or Use /help.
+Hello I'm ᴍʀ.ᴄᴏsᴍɪᴄ™ ,
+🚀 I ᴀᴍ ᴀ ᴄʀᴇᴀᴛᴏʀ ᴏғ ᴛʜɪs ᴜɴɪᴠᴇʀsᴇ ᴘᴏᴡᴇʀғᴜʟ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/MrCosmic-11-29)
+☄️ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ [ɢᴏᴅ](https://t.me/EL_DRAGO_DESTRUCTOR) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀʙᴏᴜᴛ ᴍᴇ.
+☄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴡɪᴛʜ ᴍʏ ᴜɴᴅᴇʀᴀᴛᴇᴅ Poᴡers.
+☄️ ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏ ᴘᴏᴡᴇʀғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
 """
 
@@ -355,7 +355,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""H!✨ Iam ᴍʀ.ᴄᴏsᴍɪᴄ the powerful group management bot built to help you manage your group easily..
+            text="""I'm *ᴍʀ.ᴄᴏsᴍɪᴄ*, a powerful group management bot to help you to manage your group easily...
 •I can do lots of things in group.
 •I can ban/kick/mute any User with admin privileges 
 •ADD me into your Group and Make me Admin🙂and let me do my work...in your group
@@ -390,7 +390,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""MY Devs List is Below!\n• [⚡🐉Dʀᴀɢᴏɴ Eᴍᴘᴇʀᴏʀ🐉⚡](https://t.me/EL_DRAGO_DESTRUCTOR)-->OWNER\n•[『𝄞⃝Ⱡⓞꪜє℟  B͛Ꮻ𝐘』](https://t.me/Alone_MashaRoBotrBoy)-->Dev """,
+            text="""MY Devs List is Below!\n• [⚡🐉Dʀᴀɢᴏɴ Eᴍᴘᴇʀᴏʀ🐉⚡](https://t.me/EL_DRAGO_DESTRUCTOR)-->OWNER|DEV\n•[『𝄞⃝Ⱡⓞꪜє℟  B͛Ꮻ𝐘』](https://t.me/Alone_MashaRoBotrBoy)-->Dev """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
